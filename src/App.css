@@ -1,38 +1,137 @@
-.App {
+:root {
+  --background-color: #01161E;
+  --primary-text-color: #EFF6E0;
+  --secondary-text-color: #B6CF51;
+  --margin-topbottom-section: 100px;
+  --margin-leftright-section: 200px;
+}
+
+
+[data-theme="dark"] {
+  --background-color: #01161E;
+  --primary-text-color: #EFF6E0;;
+  --secondary-text-color: #B6CF51;
+  transition: all 0.3s ease;
+}
+
+[data-theme="light"] {
+  --background-color: #F4F9E9;
+  --primary-text-color: #153243;
+  --secondary-text-color: #DBA131;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+span {
+  color: var(--secondary-text-color);
+}
+
+.page {
+  margin: 10% 10%;
+}
+
+.home, .about, .experience, .projects, .skills {
+  margin: var(--margin-topbottom-section) var(--margin-leftright-section);
+
+}
+
+.title-section {
+  font-size: 25px;
+  font-weight: semi-bold;
+  padding-top: 100px; /* Cambia '60px' a la altura de tu barra de navegación */
+  margin-top: -100px; /* Cambia '-60px' a la altura negativa de tu barra de navegación */
+
+}
+
+/* HOME */
+
+#home {
+  padding-top: 200px; /* Cambia '60px' a la altura de tu barra de navegación */
+  margin-top: -200px; /* Cambia '-60px' a la altura negativa de tu barra de navegación */
+}
+
+.home {
   text-align: center;
+  margin-top: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home .title {
+  font-size: 32px;
+  font-weight: semi-bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home .information {
+  font-size: 20px;
+  font-weight: regular;
+  margin: 75px 20%;
+  text-align: justify;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home .socials img{
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.home .socials img:hover{
+  transform: scale(1.2);
+}
+
+.home button {
+  cursor: pointer;
+  outline: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border-width: 1px;
+  border: none;
+  color: var(--secondary-text-color);
+  background-color: var(--background-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.home button:hover {
+  border: var(--background-color);
+  color: var(--background-color);
+  background-color: var(--secondary-text-color);
+  transform: scale(1.06);
+}
+
+/* ABOUT */
+
+.information-about{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.information-about p {
+  text-align: justify;
+  padding: 0 30px 0 0;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.photo-about img {
+  width: 300px;
+  height: 300px;
+} 
+
+/* PROJECTS */
+
+
+
+/* CONTACT */
+
