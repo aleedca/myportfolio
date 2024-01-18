@@ -1,28 +1,33 @@
 import React from 'react';
-import '../App.css';
+import '../styles/About.css';
 import photo from '../assets/images/me.jpeg';
-
 
 const About = () => {
     return (
         <div id='about' className='about'>
-            <div className='title-section'> <h2>{"< about me />"}</h2> </div>
+            <div className='title-section'>
+                <h2>{"< about me />"}</h2>
+            </div>
 
-            <div className='information-about'>
-                <p>
-                    Persona motivada y capaz, buscando adquirir experiencia y crecer
-                    profesionalmente para el desarrollo de mis habilidades. Organizada, proactiva
-                    y crítica, con un buen desempeño en tareas de manera grupal e individual
-                    mostrando mucha atención a los detalles. 
+            <div className='content-about'>
+                <div className='text-about'>
+                    <p> Mi nombre es Alexia Cerdas, soy estudiante de <span>Ingeniería en Computación </span> 
+                    en el Instituto Tecnológico de Costa Rica. Me apasiona mucho el deporte, los
+                    videojuegos y lo relacionado a productividad. Me gustaría abarcar temas de
+                    machine learning o análisis de datos.  <br /><br />
 
-                    <br/><br/>
+                    Lenguajes de programación que he utilizado: <br />
+                    <span>  ▶ </span>JavaScript/TypeScript<br />
+                    <span>  ▶ </span>Python<br />
+                    <span>  ▶ </span>Java<br />
+                    <span>  ▶ </span>C++<br /><br />
 
-                    Algunas tecnologías que he usado: <br/><br/>
-                    <span>▶ </span>HTML, CSS, React <br/>
-                    <span>▶ </span>Firebase, Node.js, Express.js <br/>
-                    <span>▶ </span>Python, Java, C++, JavaScript <br/>
-                    <span>▶ </span>GitHub <br/>
-                </p>
+                    Y otras tecnologías:<br />
+                    <span>  ▶ </span>HTML, CSS, React <br />
+                    <span>  ▶ </span>Firebase, Node.js, Express.js <br />
+
+                    <span>  ▶ </span>GitHub, Git <br /></p>
+                </div>
 
                 <div className='photo-about'>
                     <img src={photo} alt="" />
