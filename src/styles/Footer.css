@@ -1,0 +1,8 @@
+.footer {
+    position: relative; /* to be positioned with normal flow and not overlap with other elements */
+    padding-top: 100px;
+    bottom: 0;
+    font-size: 14px;
+    color: var(--primary-text-color);
+    text-align: center;
+}

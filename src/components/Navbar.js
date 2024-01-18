@@ -1,21 +1,9 @@
 import React from 'react';
-import sun from '../assets/images/lightmode.png'
-import moon from '../assets/images/darkmode.png'
-import logodark from '../assets/images/logodark.png'
-import logolight from '../assets/images/logolight.png'
-import plant2 from '../assets/images/plant2.png'
-
 import '../styles/Navbar.css';
 
-const Navbar = ({theme, setTheme}) => {
-
-    const toggleMode = () => {
-        theme === "dark" ? setTheme("light") : setTheme("dark")
-    }
-
+const Navbar = () => {
     return (
         <div className="navbar">
-            <img src={plant2} alt="" title='Made with ReactJS'/>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -24,7 +12,7 @@ const Navbar = ({theme, setTheme}) => {
                 <li><a href="#skills">Skills</a></li>
             </ul>
 
-            <img onClick={() => toggleMode()} src={theme === "dark" ? sun : moon} alt=""/>
+            
         </div>
     );
 }
