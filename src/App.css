@@ -2,6 +2,7 @@
   --background-color: #01161E;
   --primary-text-color: #EFF6E0;
   --secondary-text-color: #B6CF51;
+  --text-color-300: #b2deca;
   --margin-topbottom-section: 100px;
   --margin-leftright-section: 350px;
 }
@@ -32,5 +33,4 @@ span {
   font-weight: semi-bold;
   padding-top: 60px; /* Cambia '60px' a la altura de tu barra de navegación */
   margin-top: -60px; /*Cambia '-60px' a la altura negativa de tu barra de navegación */
-  background-color: #B6CF51;
 }
