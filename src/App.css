@@ -1,8 +1,7 @@
 :root {
   --background-color: #01161E;
-  --primary-text-color: #EFF6E0;
-  --secondary-text-color: #B6CF51;
-  --text-color-300: #b2deca;
+  --text-color-100: #EFF6E0;
+  --text-color-200: #80d1aa;
   --margin-leftright-section: 350px;
 }
 
@@ -12,7 +11,7 @@ body {
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   background-color: var(--background-color);
-  color: var(--primary-text-color);
+  color: var(--text-color-100);
 }
 
 html {
@@ -20,7 +19,7 @@ html {
 }
 
 span {
-  color: var(--secondary-text-color);
+  color: var(--text-color-200);
 }
 
 .about, .experience, .projects, .skills {

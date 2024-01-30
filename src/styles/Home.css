@@ -17,7 +17,7 @@
 .home .information {
   font-size: 20px;
   font-weight: regular;
-  margin: 70px 30%;
+  margin: 55px 30%;
   text-align: justify;
   line-height: 140%;
 }
@@ -37,20 +37,19 @@
 .home button {
   cursor: pointer;
   outline: none;
+  margin-top: 10px;
   padding: 12px 40px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 10px;
   border-width: 1px;
   border: none;
-  color: var(--secondary-text-color);
-  background-color: var(--background-color);
+  color: var(--background-color);
+  background-color: var(--text-color-200);
   transition: all 0.3s ease-in-out;
 }
 
 .home button:hover {
   border: var(--background-color);
-  color: var(--background-color);
-  background-color: var(--secondary-text-color);
   transform: scale(1.06);
 }

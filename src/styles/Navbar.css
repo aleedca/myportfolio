@@ -8,18 +8,24 @@
     justify-content: space-between;
     padding: 15px 0px;
     background-color: var(--background-color);
-    border-bottom: solid 1.5px var(--primary-text-color);
+    border-bottom: solid 1.5px var(--text-color-100);
+}
+
+.navbar h2 {
+    margin-left: 35px;
+    font-weight: semi-bold;
+    color: var(--text-color-200);
 }
 
 .navbar ul {
     flex: 1; /* use the complete width available in the row */
     list-style: none;
-    text-align: center;
+    text-align: end;
 }
 
 .navbar a, .navbar a:visited {
     text-decoration: none;
-    color: var(--primary-text-color);
+    color: var(--text-color-100);
   }
 
 .navbar ul li {
@@ -28,10 +34,10 @@
     font-size: 17px;
     font-weight: semi-bold;
     cursor: pointer;
-    color: var(--primary-text-color);
+    color: var(--text-color-100);
 }
 
 .navbar li a:hover{
-    color: var(--secondary-text-color);
+    color: var(--text-color-200);
     font-weight: semi-bold;
 }

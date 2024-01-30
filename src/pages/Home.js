@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             
             <a href={resume} download="Resume_AlexiaCerdas" target='_blank' rel="noreferrer">
-                <button className='button'>Download resume</button> 
+                <button className='button'>Download CV</button> 
             </a>
         </div>
     );
