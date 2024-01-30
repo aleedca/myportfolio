@@ -3,7 +3,6 @@
   --primary-text-color: #EFF6E0;
   --secondary-text-color: #B6CF51;
   --text-color-300: #b2deca;
-  --margin-topbottom-section: 100px;
   --margin-leftright-section: 350px;
 }
 
@@ -25,12 +24,18 @@ span {
 }
 
 .about, .experience, .projects, .skills {
-  margin: var(--margin-topbottom-section) var(--margin-leftright-section);
+  box-sizing: border-box; /* padding and border will be included in the total width and height of the elements */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 22%;
 }
 
 .title-section {
   font-size: 25px;
   font-weight: semi-bold;
-  padding-top: 60px; /* Cambia '60px' a la altura de tu barra de navegación */
-  margin-top: -60px; /*Cambia '-60px' a la altura negativa de tu barra de navegación */
+  width: 100%;
+  padding-top: 40px; /* change this value to the height of your navigation bar */
+  margin-top: 30px; /* change this value to the height of your navigation bar */
 }

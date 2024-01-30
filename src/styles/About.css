@@ -4,14 +4,11 @@
 }
 
 .text-about {
+    align-items: start;
+    justify-content: flex-start;
     text-align: justify;
     font-size: 17px;
-}
-
-.text-about p {
     margin: 0 20px 0 0;
-    padding: 0 20px 0 0;
-    line-height: 140%;
 }
 
 .photo-about {
@@ -20,6 +17,6 @@
 }
 
 .photo-about img {
-    width: 300px;
-    height: 300px;
+    width: 315px;
+    height: 450px;
 }
