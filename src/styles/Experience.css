@@ -1,0 +1,19 @@
+.experience .content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px; /* You can adjust the margin value according to your needs */
+}
+
+.experience .table {
+    border: 1px solid black;
+    text-align: start;
+    flex-basis: 50%; /* Set the width of the table to 50% of the container */
+}
+
+.experience .information {
+    flex-basis: 50%; /* Set the width of the information to 50% of the container */
+}
+
+.experience .table td {
+    font-size: 20px;
+}

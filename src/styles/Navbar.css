@@ -8,7 +8,6 @@
     justify-content: space-between;
     padding: 15px 0px;
     background-color: var(--background-color);
-    border-bottom: solid 1.5px var(--text-color-100);
 }
 
 .navbar h2 {

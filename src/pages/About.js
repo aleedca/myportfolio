@@ -9,8 +9,8 @@ const About = () => {
                 <h2>{"< about me />"}</h2>
             </div>
 
-            <div className='content-about'>
-                <div className='text-about'>
+            <div className='content'>
+                <div className='information'>
                     <p> Mi nombre es Alexia Cerdas, soy estudiante de <span>Ingeniería en Computación </span> 
                     en el Instituto Tecnológico de Costa Rica. Me apasiona mucho el deporte, los
                     videojuegos y lo relacionado a productividad. Me gustaría abarcar temas de
@@ -29,7 +29,7 @@ const About = () => {
                     <span>  ▶ </span>GitHub, Git <br /></p>
                 </div>
 
-                <div className='photo-about'>
+                <div className='photo'>
                     <img src={photo} alt="" />
                 </div>
             </div>

@@ -1,26 +1,29 @@
 import React from 'react';
-import '../App.css';
+import '../styles/Experience.css';
 
 const Experience = () => {
     return (
         <div id='experience' className='experience'>
             <div className='title-section'> <h2>{"< experience />"}</h2> </div>
 
-            <div className='information-experience'>
-                <p>
-                    Persona motivada y capaz, buscando adquirir experiencia y crecer
-                    profesionalmente para el desarrollo de mis habilidades. Organizada, proactiva
-                    y crítica, con un buen desempeño en tareas de manera grupal e individual
-                    mostrando mucha atención a los detalles. 
+            <div className='content'>
+                <table className='table'>
+                    <tbody>
+                        <tr>
+                            <td>Adminitrative Assistant</td>
+                        </tr>
+                        <tr>
+                            <td>Participation Hackthon GJ+</td>
+                        </tr>
+                        <tr>
+                            <td>Participation Hackthon WGJ</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-                    <br/><br/>
-
-                    Algunas tecnologías que he usado: <br/><br/>
-                    <span>▶ </span>HTML, CSS, React <br/>
-                    <span>▶ </span>Firebase, Node.js, Express.js <br/>
-                    <span>▶ </span>Python, Java, C++, JavaScript <br/>
-                    <span>▶ </span>GitHub <br/>
-                </p>
+                <div className='information'>
+                    <h2>Adminitrative Adminitrative</h2>
+                </div>
             </div>
         </div>
     );
